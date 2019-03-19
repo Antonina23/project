@@ -6,7 +6,11 @@ body {
 	line-height: 1.5;
 	color: #333333;
 }
+.section {
+	padding: 30px 10%;
+}
 .header {
+	margin-top: 80px;
 	text-align: center;
 	font-size: 24px;
 }
@@ -17,4 +21,18 @@ body {
 .header strong {
 	text-transform: uppercase;
 	font-weight: 900;
+}
+.main {
+	margin-top: 80px;
+}
+.video, .form {
+	display: inline-block;
+	vertical-align: top;
+}
+.form {
+	border: 5px solid #2727d9;
+	padding: 20px;
+}
+.form input {
+	width: 300px;
 }
