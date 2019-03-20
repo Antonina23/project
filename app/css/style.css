@@ -25,3 +25,9 @@
 	background-color: #2727d9;
 	margin: 12px auto;
 }
+.feature {
+	margin: 60px auto;
+}
+.feature p {
+	margin-top: 20px;
+}
