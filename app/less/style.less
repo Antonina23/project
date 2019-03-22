@@ -192,7 +192,7 @@ section {
 	}
 }
 .header {
-	height: 7rem;
+	height: 17rem;
 }
 .wrap {
 	display: table;
@@ -204,11 +204,44 @@ section {
 	text-align: right;
 	}
 }
-.phone-link {
+.phone {
+	&-block {
+	text-align: right;
+	}
+	&-link {
 	display: inline-block;
 	.bold();
 	font-size: 2rem;
 	height: 7rem;
 	line-height: 7rem;
 	color: @text;
+	}
+}
+
+@media (max-width: 991px) {
+	.main {
+		background-position: top right;
+	}
+	.phone-block {
+		text-align: center;
+	}
+	.main-content {
+		margin-top: 3rem;
+	}
+	.main-title {
+		padding-bottom: 3rem;
+		text-align: center;
+	}
+}
+
+@media (max-width: 767px) {
+	.main {
+		background-position: top left;
+	}
+	.header {
+		text-align: center;
+	}
+	.wrap-block {
+		text-align: center;
+	}
 }

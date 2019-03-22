@@ -153,7 +153,7 @@ section {
   margin-top: 1.5rem;
 }
 .header {
-  height: 7rem;
+  height: 17rem;
 }
 .wrap {
   display: table;
@@ -165,6 +165,9 @@ section {
   vertical-align: middle;
   text-align: right;
 }
+.phone-block {
+  text-align: right;
+}
 .phone-link {
   display: inline-block;
   font-family: 'ProximaNova_bold', sans-serif;
@@ -172,4 +175,30 @@ section {
   height: 7rem;
   line-height: 7rem;
   color: #1a1820;
+}
+@media (max-width: 991px) {
+  .main {
+    background-position: top right;
+  }
+  .phone-block {
+    text-align: center;
+  }
+  .main-content {
+    margin-top: 3rem;
+  }
+  .main-title {
+    padding-bottom: 3rem;
+    text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  .main {
+    background-position: top left;
+  }
+  .header {
+    text-align: center;
+  }
+  .wrap-block {
+    text-align: center;
+  }
 }
