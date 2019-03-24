@@ -246,6 +246,9 @@ section {
 .price-header-btn {
   margin-top: 2.5rem;
 }
+.price-button {
+  text-align: right;
+}
 .price-block {
   padding: 1rem 3rem 4rem;
   min-height: 50rem;
@@ -260,6 +263,8 @@ section {
   font-family: 'ProximaNova_bold', sans-serif;
 }
 .price-block img {
+  width: 100%;
+  max-width: 30rem;
   display: inline-block;
   margin-bottom: 2rem;
 }
@@ -342,6 +347,20 @@ section {
   .main-title {
     padding-bottom: 3rem;
     text-align: center;
+  }
+  .price-button {
+    text-align: center;
+    padding: 2rem 0;
+  }
+  .price-header-btn {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  .price-block {
+    margin-top: 2rem;
+  }
+  .section-header_light {
+    margin-bottom: 0;
   }
 }
 @media (max-width: 767px) {
