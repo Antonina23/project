@@ -103,10 +103,19 @@ section {
 	padding: 10rem 0;
 }
 .section-header {
+	&_light {
+		color: @light;
+		margin-top: 0;
+	}
+	h2 {
+		font-size: 3.6rem;
+		.bold();
+	}
+	p {
+		font-size: 1.4rem;
+	}
 	margin: 2rem 0 10rem;
 	text-align: center;
-	font-size: 3.6rem;
-	.bold();
 }
 
 /* Main */
@@ -270,6 +279,14 @@ section {
 	right: 0;
 	background: url(../img/right-arrow.svg) center no-repeat;
 	background-size: 70%;
+}
+
+/* Секция с ценами */
+.price {
+	background: @icons-color url(../img/prices-bg.jpg) center;
+	&-header-btn {
+		margin-top: 2.5rem;
+	}
 }
 
 /* Оформление всплывающих окон */

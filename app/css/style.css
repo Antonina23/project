@@ -67,8 +67,17 @@ section {
 .section-header {
   margin: 2rem 0 10rem;
   text-align: center;
+}
+.section-header_light {
+  color: #ffffff;
+  margin-top: 0;
+}
+.section-header h2 {
   font-size: 3.6rem;
   font-family: 'ProximaNova_bold', sans-serif;
+}
+.section-header p {
+  font-size: 1.4rem;
 }
 /* Main */
 .main {
@@ -228,6 +237,13 @@ section {
   right: 0;
   background: url(../img/right-arrow.svg) center no-repeat;
   background-size: 70%;
+}
+/* Секция с ценами */
+.price {
+  background: #46b814 url(../img/prices-bg.jpg) center;
+}
+.price-header-btn {
+  margin-top: 2.5rem;
 }
 /* Оформление всплывающих окон */
 .popup {
