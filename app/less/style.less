@@ -287,6 +287,48 @@ section {
 	&-header-btn {
 		margin-top: 2.5rem;
 	}
+	/* Карточки с расписанием цен */
+	&-block {
+		padding: 1rem 3rem 4rem;
+		min-height: 50rem;
+		background-color: @light;
+		box-shadow: 7px 12px 21px 0px rgba(0, 0, 0, 0.17);
+		text-align: center;
+		h4 {
+			margin: 3rem 0;
+			font-size: 1.9rem;
+			.bold();
+		}
+		img {
+			display: inline-block;
+			margin-bottom: 2rem;
+		}
+	}
+	&-tag {
+		display: block;
+		margin-bottom: 2rem;
+		font-size: 1.9rem;
+		.bold();
+	}
+	&-list {
+		list-style: none;
+		padding: 0;
+		min-height: 14rem;
+		font-size: 1.6rem;
+		line-height: 1.6;
+		li {
+			&:before {
+				content: '';
+				display: inline-block;
+				margin-right: 1rem;
+				width: 1.4rem;
+				height: 1.4rem;
+				background: url(../img/prices/checked.svg) center no-repeat;
+				background-size: 100%;
+				vertical-align: middle;
+			}
+		}
+	}
 }
 
 /* Оформление всплывающих окон */
