@@ -291,6 +291,10 @@ section {
   background-size: 100%;
   vertical-align: middle;
 }
+/* Секция с отзывами */
+.feedback {
+  background: url(../img/feedback-bg.jpg) center no-repeat;
+}
 /* Оформление всплывающих окон */
 .popup {
   display: none;
