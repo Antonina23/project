@@ -296,6 +296,12 @@ section {
   background: url(../img/feedback-bg.jpg) center no-repeat;
   background-size: cover;
 }
+.feedback-prev-btn {
+  left: -4rem;
+}
+.feedback-next-btn {
+  right: -4rem;
+}
 .feedback-slider {
   padding: 5rem 6rem;
   background-color: #ffffff;
