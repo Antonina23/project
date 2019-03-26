@@ -352,6 +352,55 @@ section {
 .feedback-slider-btn img {
   width: 50%;
 }
+.feedback .hand {
+  margin-top: 6rem;
+}
+.feedback .hand .hand-pic {
+  width: 100%;
+}
+.feedback-form {
+  text-align: center;
+  margin-top: 5rem;
+  /* Поле для ввода имени и тел */
+  /* Подписи к полям */
+}
+.feedback-form-header {
+  padding: 2rem;
+  font-size: 2rem;
+  font-family: 'ProximaNova_semibold', sans-serif;
+}
+.feedback-form-input {
+  display: inline-block;
+  margin: 3rem 2rem;
+  width: 40%;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  padding: 1.5rem;
+}
+.feedback-form .one {
+  position: absolute;
+  left: 15%;
+  -webkit-transform: translateX(50%) translateY(50%);
+          transform: translateX(50%) translateY(50%);
+  padding: 0.5rem;
+  font-size: 1.3rem;
+  background-color: #ffffff;
+}
+.feedback-form .two {
+  position: absolute;
+  right: 27%;
+  -webkit-transform: translateX(50%) translateY(50%);
+          transform: translateX(50%) translateY(50%);
+  padding: 0.5rem;
+  font-size: 1.3rem;
+  background-color: #ffffff;
+}
+.feedback-form-btn {
+  display: block;
+  margin: 0 auto;
+  height: 5.5rem;
+  font-size: 1.6rem;
+}
 /* Оформление всплывающих окон */
 .popup {
   display: none;

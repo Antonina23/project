@@ -394,6 +394,53 @@ section {
 		}
 	}	
 	}
+	.hand {
+		margin-top: 6rem;
+		.hand-pic {
+		width: 100%;
+		}
+	}
+	&-form {
+		text-align: center;
+		margin-top: 5rem;
+		&-header {
+			padding: 2rem;
+			font-size: 2rem;
+			.semibold();
+		}
+		/* Поле для ввода имени и тел */
+		&-input {
+			display: inline-block;
+			margin: 3rem 2rem;
+			width: 40%;
+			border: 1px solid @border-input;
+			border-radius: 5px;
+			padding: 1.5rem;
+		}
+		/* Подписи к полям */
+			.one {
+			position: absolute;
+			left: 15%;
+			transform: translateX(50%) translateY(50%);
+			padding: 0.5rem;
+			font-size: 1.3rem;
+			background-color: @light;
+		}
+		.two {
+			position: absolute;
+			right: 27%;
+			transform: translateX(50%) translateY(50%);
+			padding: 0.5rem;
+			font-size: 1.3rem;
+			background-color: @light;
+		}
+		&-btn {
+			display: block;
+			margin: 0 auto;
+			height: 5.5rem;
+			font-size: 1.6rem;
+		}
+	}
 }
 
 /* Оформление всплывающих окон */
