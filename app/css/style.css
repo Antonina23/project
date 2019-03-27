@@ -502,7 +502,23 @@ section {
   .wrap-block {
     text-align: center;
   }
+  .features-block p {
+    width: 60;
+  }
+  .feedback-prev-btn {
+    left: 0;
+  }
+  .feedback-next-btn {
+    right: 0;
+  }
   .hand {
     display: none;
+  }
+  .scheme {
+    background: none;
+    text-align: center;
+  }
+  .scheme-block {
+    min-height: 20rem;
   }
 }

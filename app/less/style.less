@@ -505,7 +505,6 @@ section {
 	}
 }
 
-
 @media (max-width: 991px) {
 	.main {
 		background-position: top right;
@@ -551,7 +550,29 @@ section {
 	.wrap-block {
 		text-align: center;
 	}
+	.features {
+		&-block {
+			p {
+				width: 60;
+			}
+		}
+	}
+	.feedback {
+		&-prev-btn {
+			left: 0;
+		}
+		&-next-btn {
+			right: 0;
+		}
+	}
 	.hand {
 		display: none;
+	}
+	.scheme {
+		background: none;
+		text-align: center;
+		&-block {
+			min-height: 20rem;
+		}
 	}
 }
