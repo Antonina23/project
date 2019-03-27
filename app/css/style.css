@@ -407,7 +407,8 @@ section {
 }
 /* Схема работы */
 .scheme {
-  background: #ffffff url(../img/scheme-bg.png) bottom right no-repeat;
+  background: #ffffff url(../img/scheme-bg.png) bottom right -10rem no-repeat;
+  background-size: 65rem;
 }
 .scheme-block {
   min-height: 30rem;
@@ -500,5 +501,8 @@ section {
   }
   .wrap-block {
     text-align: center;
+  }
+  .hand {
+    display: none;
   }
 }
