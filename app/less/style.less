@@ -449,7 +449,7 @@ section {
 
 /* Схема работы */
 .scheme {
-	background: #fff url(../img/scheme-bg.png) bottom right -10rem no-repeat;
+	background: #fff url(../img/scheme-bg.png) bottom -10rem right -15rem no-repeat;
 	background-size: 65rem;
 	&-block {
 	min-height: 30rem;
@@ -457,8 +457,47 @@ section {
 		font-size: 2rem;
 		.bold();
 		}
+		p {
+			font-size: 1.5rem;
+		}
 	}
 }
+
+/* Все на 100% включено */
+.all-inclusive {
+	background: @bg-light;
+	.media {
+		min-height: 9rem;
+		h4 {
+			.bold();
+			font-size: 1.6rem;
+		}
+		p {
+		font-size: 1.1rem;
+		}
+	}
+}
+.circle {
+	display: inline-block;
+	background-color: @icons-color;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	&-border {
+		display: inline-block;
+		width: 5rem;
+		height: 5rem;
+		padding: 0.3rem;
+		border: 2px solid @icons-color;
+		border-radius: 50%;
+		text-align: center;
+		line-height: 4rem;
+		color: @light;
+		.bold();
+		font-size: 2rem;
+	}
+}
+
 
 
 
