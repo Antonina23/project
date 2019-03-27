@@ -354,6 +354,10 @@ section {
 }
 .feedback .hand {
   margin-top: 6rem;
+  /*position: absolute;
+		bottom: 0;
+		left: 0;
+		max-width: 30rem;*/
 }
 .feedback .hand .hand-pic {
   width: 100%;
@@ -400,6 +404,17 @@ section {
   margin: 0 auto;
   height: 5.5rem;
   font-size: 1.6rem;
+}
+/* Схема работы */
+.scheme {
+  background: #ffffff url(../img/scheme-bg.png) bottom right no-repeat;
+}
+.scheme-block {
+  min-height: 30rem;
+}
+.scheme-block h3 {
+  font-size: 2rem;
+  font-family: 'ProximaNova_bold', sans-serif;
 }
 /* Оформление всплывающих окон */
 .popup {
