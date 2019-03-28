@@ -535,6 +535,11 @@ section {
   display: block;
   margin: 0 auto;
 }
+/* Посмотрите как мы работаем */
+.tour {
+  background: #ffffff url(../img/worker-bg.jpg) center no-repeat;
+  background-size: cover;
+}
 /* Оформление всплывающих окон */
 .popup {
   display: none;
