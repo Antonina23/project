@@ -546,6 +546,10 @@ section {
 .tour-form .tour-button {
   font-size: 1rem;
 }
+/* Дополнительные услуги */
+.upsell {
+  background: #286b0a;
+}
 /* Оформление всплывающих окон */
 .popup {
   display: none;
