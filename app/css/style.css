@@ -540,6 +540,12 @@ section {
   background: #ffffff url(../img/worker-bg.jpg) center no-repeat;
   background-size: cover;
 }
+.tour-subtitle {
+  font-size: 2.2rem;
+}
+.tour-form .tour-button {
+  font-size: 1rem;
+}
 /* Оформление всплывающих окон */
 .popup {
   display: none;
