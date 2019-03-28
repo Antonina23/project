@@ -506,6 +506,9 @@ section {
   background: url(../img/problems/red_no.svg) no-repeat center;
   background-size: 60%;
 }
+.problems-list_good {
+  border-color: #46b814;
+}
 .problems-list_good ul li:before {
   background: url(../img/problems/green_yes.svg) no-repeat center;
   background-size: 70%;
