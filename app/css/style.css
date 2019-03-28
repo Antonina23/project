@@ -142,7 +142,8 @@ section {
 .main-form-header strong {
   font-size: 1.9rem;
 }
-.main-form-input {
+.main-form-input,
+.main-form-textarea {
   display: block;
   margin: 2rem 0;
   width: 100%;
@@ -157,6 +158,7 @@ section {
           transform: translateX(-50%) translateY(-50%);
   padding: 0.5rem;
   font-size: 1.3rem;
+  font-family: 'ProximaNova_regular', sans-serif;
   background-color: #ffffff;
 }
 .main-form-btn {
@@ -544,7 +546,7 @@ section {
   font-size: 2.2rem;
 }
 .tour-form .tour-button {
-  font-size: 1rem;
+  padding: 1rem;
 }
 /* Дополнительные услуги */
 .upsell {
@@ -571,6 +573,7 @@ section {
 .contacts {
   background: #ffffff url(../img/contacts-bg.jpg) center no-repeat;
   background-size: cover;
+  /* Форма */
 }
 .contacts h2 {
   font-family: 'ProximaNova_bold', sans-serif;
@@ -587,6 +590,14 @@ section {
 }
 .contacts-link:hover {
   color: #000000;
+}
+.contacts-form h2 {
+  font-size: 1.9rem;
+  font-family: 'ProximaNova_semibold', sans-serif;
+  margin-bottom: 3rem;
+}
+.contacts-button {
+  padding: 1rem;
 }
 /* Оформление всплывающих окон */
 .popup {
