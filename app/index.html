@@ -70,7 +70,7 @@
   								<label for="#">Ваше имя</label>
   								<input class="main-form-input" type="text">
   								<label for="#">Номер телефона</label>
-  								<input class="main-form-input" type="text">
+  								<input class="main-form-input" id="phone" type="text">
   								<button class="main-form-btn button" type="submit">Оставьте заявку</button>
   								<small>Подарок в день обращения</small>
   							</form>
@@ -777,6 +777,12 @@
     <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
     <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
     <script src="js/wow.min.js.txt"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script>
+     jQuery(function($){
+   $("#phone").mask("+7 (999) 999-9999");
+      });
+    </script>
     <script>
       new WOW().init();
     </script>
